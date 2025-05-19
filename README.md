@@ -1,8 +1,8 @@
 # 🌐 Web Dashboard System with API Integration & CI/CD
 
 **Assignment Title**: Develop and Deploy a Web Dashboard System with API Integration & CI/CD  
-**Student**: [Your Name Here]  
-**GitHub Pages Live Link**: https://yourusername.github.io/web-dashboard-project/
+**Student**: DHARSHANAA REDDY (074356) 
+**GitHub Pages Live Link**: https://074356.github.io/SmartDash-CICD/
 
 ## 📋 Project Overview
 
@@ -32,4 +32,4 @@ This project is a web-based dashboard system that uses public APIs to show live 
 1. Open `index.html` in browser
 2. Use the navigation to access dashboards and CRUD pages
 
-> Replace `YOUR_API_KEY` with your actual OpenWeather API key.
+> Replace `06bba629fa20cb6ecda05a946534f60a` with your actual OpenWeather API key.
