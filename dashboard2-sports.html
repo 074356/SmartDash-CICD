@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sports Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>⚽ Sports Dashboard</h1>
+  <canvas id="sportsChart" width="400" height="200"></canvas>
+  <a href="index.html">⬅️ Back to Home</a>
+  <script>
+    const ctx = document.getElementById('sportsChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Team A', 'Team B', 'Team C'],
+        datasets: [{
+          label: 'Points',
+          data: [65, 59, 80],
+          backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56']
+        }]
+      }
+    });
+  </script>
+</body>
+</html>
